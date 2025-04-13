@@ -15,6 +15,12 @@ nav {
   line-height: 40px;
 }
 
+.foto {
+  padding: 5px 5px;
+  border-radius: 50%;
+  background-color: var(--background-color);
+}
+
 nav ul {
   margin-bottom: 0px;
 }
@@ -24,7 +30,7 @@ nav li {
   list-style: none;
   font-size: 16px;
   font-weight: 500;
-  padding: 10px 20px;
+  padding: 10px 10px;
 }
 
 nav a {
@@ -67,9 +73,10 @@ h2 {
   color: #ffffff;
   font-size: 18px;
   font-weight: 500;
-  padding: 18px 38px;
+  padding: 18px 30px;
   box-shadow: 5px 10px 10px rgb(0, 0, 0, 0.4);
   transition: all 200ms ease;
+  border-radius: 4px;
 }
 
 .btn-design:hover {
@@ -80,4 +87,87 @@ h2 {
 .paragraph {
   font-size: 18px;
   font-weight: 400p;
+}
+
+.section-project {
+  padding: 50px 50px;
+}
+
+.project-title {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.description-project {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.8;
+  line-height: 30px;
+}
+
+.btn-detail {
+  border-radius: 4px;
+  border-color: var(--branding-color);
+  color: var(--branding-color);
+  padding: 18px 30px;
+}
+
+.btn-detail:hover {
+  background-color: var(--branding-color);
+  color: white;
+}
+
+.footer-inquiry {
+  background-color: var(--background-color);
+  padding: 50px 100px 25px;
+  border-radius: 20px;
+}
+
+.footer-inquiry h3 {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.footer-inquiry p {
+  font-family: var(--font-content);
+  font-weight: 400;
+  font-size: 18px;
+  opacity: 70%;
+}
+
+footer .mail a {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+footer .mail a:hover {
+  color: var(--branding-color);
+}
+
+footer .social-link i {
+  font-size: 18px;
+  color: var(--branding-color);
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 200ms ease;
+}
+
+footer .social-link i:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+
+footer .social-link a {
+  margin: 0px 25px;
+}
+
+footer .footnote {
+  font-weight: 400;
+  font-size: 16px;
 }

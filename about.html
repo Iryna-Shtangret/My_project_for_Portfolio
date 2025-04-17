@@ -3,9 +3,110 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <title>Frontend developer - Iryna Mrachkovska</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <script
+      src="https://kit.fontawesome.com/6b8b892ead.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    About
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img src="img/foto.png" alt="Iryna logo" class="foto" width="40" />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" class="active" title="About Iryna">About</a>
+          </li>
+          <li><a href="/work.html" title="Iryna's work">Work</a></li>
+          <li><a href="/contact.html" title="Iryna's contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Hi! I am Iryna Mrachkovska</h1>
+          <h3>Frontend developer, based in Ukraine</h3>
+          <p>
+            I'm currently seeking new opportunities in front-end development.
+            I'm open to work remotely and have flexible hours. I'm highly
+            skilled in JavaScript and React.
+          </p>
+          <a href="#" class="btn btn-design">See my projects</a>
+        </div>
+        <div class="col-lg-6">
+          <img src="/img/my-foto.jpg" alt="my-foto" />
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-inquiry justify-content-between d-none d-lg-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p>Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            alt="Contact information"
+            class="btn btn-design mt-3"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="mail mt-5">
+        <a href="mailto:mavrushka86@gmail.com" title="Email Iryna"
+          >mavrushka86@gmail.com</a
+        >
+      </div>
+      <div class="social-link d-flex justify-content-center mt-3">
+        <a
+          href="https://github.com/Iryna-Shtangret"
+          target="_blank"
+          title="GitHub Profile"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/shtangretirina"
+          target="_blank"
+          title="Instagram Profile"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/irina.shtangret"
+          target="_blank"
+          title="Facebook Profile"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+      </div>
+      <p class="footnote text-center mt-5">
+        This project was coded by Iryna Mrachkovska and it is
+        <a
+          href="https://github.com/Iryna-Shtangret/My_project_for_Portfolio"
+          target="_blank"
+          title="GitHub Profile"
+          >open-sourced
+        </a>
+      </p>
+    </footer>
   </body>
 </html>

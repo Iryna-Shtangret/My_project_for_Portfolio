@@ -26,14 +26,16 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/index.html">
-          <img src="img/foto.png" alt="" class="foto" />
+        <a href="/" title="Homepage">
+          <img src="img/foto.png" alt="Iryna logo" class="foto" width="40" />
         </a>
         <ul>
-          <li><a href="/index.html" class="active">Home</a></li>
+          <li>
+            <a href="/" class="active" title="Homepage">Home</a>
+          </li>
           <li><a href="/about.html" title="About Iryna">About</a></li>
-          <li><a href="/work.html" title="">Work</a></li>
-          <li><a href="/contact.html" title="">Contact</a></li>
+          <li><a href="/work.html" title="Iryna's work">Work</a></li>
+          <li><a href="/contact.html" title="Iryna's contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -41,17 +43,23 @@
       <p class="mb-0">Hello! I am</p>
       <h1>Iryna Mrachkovska</h1>
       <h2 class="mb-5">Frontend developer, based in Ukraine</h2>
-      <a href="#" class="btn btn-design">Contact me</a>
+      <a href="/about.html" title="Iryna's resume" class="btn btn-design"
+        >About me</a
+      >
     </div>
-    <p class="text-center paragraph mt-5">
+    <p class="text-center paragraph m-5">
       Check out some of my featured projects below
     </p>
-    <div div class="container mt-5">
+    <div div class="container">
       <div class="row mb-5">
-        <div class="col-6">
-          <img src="img/Yogurt.png" class="img-fluid" alt="" />
+        <div class="col d-none d-lg-block">
+          <img
+            src="img/Yogurt.png"
+            class="img-fluid"
+            alt="Yogurt project preview"
+          />
         </div>
-        <div class="col-6">
+        <div class="col">
           <div class="section-project">
             <h3 class="project-title">Yogurt Project</h3>
             <p class="description-project mt-5">
@@ -60,12 +68,17 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-detail mt-5">Learn more</a>
+            <a
+              href="/work.html"
+              title="More Yogurt Project"
+              class="btn btn-detail mt-5"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
       <div class="row mb-5">
-        <div class="col-6">
+        <div class="col">
           <div class="section-project">
             <h3 class="project-title">Weather App</h3>
             <p class="description-project mt-5">
@@ -74,18 +87,31 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-detail mt-5">Learn more</a>
+            <a
+              href="/work.html"
+              title="More Weather App Project"
+              class="btn btn-detail mt-5"
+              >Learn more</a
+            >
           </div>
         </div>
-        <div class="col-6">
-          <img src="img/Weather.png" class="img-fluid" alt="" />
+        <div class="col d-none d-lg-block">
+          <img
+            src="img/Weather.png"
+            alt="Weather App project preview"
+            class="img-fluid"
+          />
         </div>
       </div>
       <div class="row mb-5">
-        <div class="col-6">
-          <img src="img/Dictionary.png" class="img-fluid" alt="" />
+        <div class="col d-none d-lg-block">
+          <img
+            src="img/Dictionary.png"
+            alt="Dictionary App project preview"
+            class="img-fluid"
+          />
         </div>
-        <div class="col-6">
+        <div class="col">
           <div class="section-project">
             <h3 class="project-title">Dictionary App</h3>
             <p class="description-project mt-5">
@@ -94,30 +120,63 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-detail mt-5">Learn more</a>
+            <a
+              href="/work.html"
+              title="More Dictionary App"
+              class="btn btn-detail mt-5"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
       <footer>
-        <div class="d-flex justify-content-between footer-inquiry">
+        <div class="footer-inquiry justify-content-between d-none d-lg-flex">
           <div>
             <h3>Work Inquiry</h3>
-            <p>Let’s work together</p>
+            <p>Let's work together</p>
           </div>
           <div>
-            <a href="#" class="btn btn-design">Contact me</a>
+            <a
+              href="/contact.html"
+              alt="Contact information"
+              class="btn btn-design mt-3"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="mail mt-5">
-          <a href="mailto:mavrushka86@gmail.com">mavrushka86@gmail.com</a>
+          <a href="mailto:mavrushka86@gmail.com" title="Email Iryna"
+            >mavrushka86@gmail.com</a
+          >
         </div>
-        <div class="social-link text-center mt-3">
-          <a href="#"><i class="fa-brands fa-github"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <div class="social-link d-flex justify-content-center mt-3">
+          <a
+            href="https://github.com/Iryna-Shtangret"
+            target="_blank"
+            title="GitHub Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/shtangretirina"
+            target="_blank"
+            title="Instagram Profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/irina.shtangret"
+            target="_blank"
+            title="Facebook Profile"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
         </div>
         <p class="footnote text-center mt-5">
-          This project was coded by Iryna Mrachkovska and it is open-sourced
+          This project was coded by Iryna Mrachkovska and it is
+          <a
+            href="https://github.com/Iryna-Shtangret/My_project_for_Portfolio"
+            target="_blank"
+            title="GitHub Profile"
+            >open-sourced
+          </a>
         </p>
       </footer>
     </div>

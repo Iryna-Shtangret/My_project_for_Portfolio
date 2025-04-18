@@ -44,10 +44,21 @@ nav .active {
   color: var(--branding-color);
 }
 
+/*hr {
+  color: var(--branding-color);
+  margin: 0px;
+  border-width: 2px;
+  opacity: 20%;
+}*/
+
+.head-content,
+.about-content {
+  padding: 60px 20px;
+}
+
 .head-content {
   text-align: center;
   background-color: var(--background-color);
-  padding: 80px 20px;
 }
 
 .head-content p {
@@ -63,9 +74,29 @@ h1 {
   line-height: 1.5;
 }
 
+.about-content h1 {
+  font-size: 64px;
+}
+
 h2 {
   font-size: 24px;
   font-weight: 400;
+}
+
+.about-content h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.about-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  opacity: 70%;
+}
+
+.about-content img {
+  border-radius: 20px;
 }
 
 .btn-design {
@@ -121,7 +152,7 @@ h2 {
 .footer-inquiry {
   background-color: var(--background-color);
   padding: 25px 100px 25px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .footer-inquiry h3 {
@@ -173,8 +204,14 @@ footer .footnote {
 }
 
 @media (max-width: 992px) {
-  h1 {
-    font-size: 46px;
+  h1,
+  .about-content h1 {
+    font-size: 44px;
+  }
+
+  .about-content {
+    text-align: center;
+    padding: 0px 20px;
   }
 
   .project-title {

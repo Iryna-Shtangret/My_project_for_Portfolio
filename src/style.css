@@ -52,7 +52,9 @@ nav .active {
 }*/
 
 .head-content,
-.about-content {
+.about-content,
+.contact-content,
+.work-content {
   padding: 60px 20px;
 }
 
@@ -74,7 +76,9 @@ h1 {
   line-height: 1.5;
 }
 
-.about-content h1 {
+.about-content h1,
+.contact-content h1,
+.work-content h1 {
   font-size: 64px;
 }
 
@@ -88,15 +92,33 @@ h2 {
   font-weight: 700;
 }
 
-.about-content p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 30px;
-  opacity: 70%;
+.work-content h2 {
+  font-size: 24px;
+  font-weight: 700;
 }
 
-.about-content img {
+.about-content p,
+.work-content p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  opacity: 80%;
+}
+
+.about-content img,
+.work-content img {
   border-radius: 20px;
+}
+
+.contact-content h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.contact-content p {
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .btn-design {
@@ -205,11 +227,15 @@ footer .footnote {
 
 @media (max-width: 992px) {
   h1,
-  .about-content h1 {
+  .about-content h1,
+  .contact-content h1,
+  .work-content h1 {
     font-size: 44px;
   }
 
-  .about-content {
+  .about-content,
+  .contact-content,
+  .work-content {
     text-align: center;
     padding: 0px 20px;
   }
@@ -227,9 +253,9 @@ footer .footnote {
 
 @media (max-width: 882px) {
   nav li {
-    font-size: 12px;
+    font-size: 16px;
   }
   footer .mail a {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
